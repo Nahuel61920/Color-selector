@@ -1,11 +1,14 @@
-function CambiarRojo(){
-    document.body.style.backgroundColor = '#f00';
-}
-
-function CambiarBlanco(){
-    document.body.style.backgroundColor = '#0f0';
-}
-
-function CambiarNegro(){
-    document.body.style.backgroundColor = '#000';
-}
+function CambiarColor(color){
+		if(color=='1'){
+			document.body.style.background='#f00';
+		}
+		if(color=='2'){
+			document.body.style.background='#fff';
+		}
+		if(color=='3'){
+			document.body.style.background='#000';
+		}
+		if(color=='4'){
+			document.body.style.background='#2BD56E';
+		}
+	}
